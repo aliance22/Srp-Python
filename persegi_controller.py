@@ -1,4 +1,4 @@
-from persegi import persegi
+from persegi import Persegi
 class PersegiController:
     
     def hitung_luas(self, persegi: Persegi) -> float:

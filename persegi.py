@@ -1,4 +1,4 @@
-class persegi:
+class Persegi:
     
     def __init__(self, sisi: float):
         self.__sisi = sisi
