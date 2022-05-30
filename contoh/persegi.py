@@ -7,5 +7,4 @@ class Persegi:
         self.__sisi + sisi
     
     def get_sisi(self) -> float:
-        return self.__sisi 
-    
+        return self.__sisi
