@@ -1,7 +1,12 @@
-from karakter import Karakter
+from Karakter_Pemukul import Karakter_Pemukul
 from karakter_pengendara import KarakterPengendara
 from karakter_penembak import KarakterPenembak
 
-view = Karakter ("waladolin",80)
-view = KarakterPenembak ("amin",90)
-view = KarakterPengendara ("stepen",69)
+karakter1 = KarakterPemukul ("waladolin",80)
+print(karakter1.menyerang(),"memukul")
+
+karakter2 = KarakterPenembak ("amin",90)
+print(karakter2.menyerang(),"memukul")
+
+karakter3 = KarakterPengendara ("stepen",69)
+print(karakter3.menyerang(),"run")

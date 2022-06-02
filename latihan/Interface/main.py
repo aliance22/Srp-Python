@@ -1,18 +1,14 @@
-from kehadiran_operation import KehadiranOperation
-from mahasiswa_operation import MahasiswaOperation
-from dosen_operation import DosenOperation
-from admin_operation import AdminOperation
+from tugas.dosen import Dosen
+from tugas.mahasiswa import Mahasiswa
+from tugas.admin_jurusan import AdminJurusan
 
-mahasiswa1 = MahasiswaOperation()
-mahasiswa2 = MahasiswaOperation()
-dosen1 = DosenOperation()
-dosen2 = DosenOperation()
-admin1 = AdminOperation()
-admin2 = AdminOperation()
+mahasiswa = Mahasiswa()
+admin.jurusan = AdminJurusan()
+dosen = Dosen()
+mahasiswa.mencatat_kehadiran()
+dosen.mencatat_kehadiran()
+admin_juruasn.mencatat_kehadiran()
 
-mahasiswa1.mencatat_kehadiran()
-mahasiswa2.mengerjakan_ujian()
-dosen1.mencatat_kehadiran()
-dosen2.membuat_ujian()
-admin1.mencatat_kehadiran()
-admin2.mempublis_jadwal_ujian()
+admin_jurusan.publikasi_jadwal()
+dosen.membuat_ujian()
+mahasiswa.mengerjakan_ujian()
