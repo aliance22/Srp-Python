@@ -3,12 +3,15 @@ from abc import ABC, abstractmethod
 class PenghitungBangunDatar(ABC):
     
     def __init__(self, sisi: float):
-        self.sisi = sisi
+        self.__sisi = sisi
+        
+    def get_sisi(self) -> float:
+        return self.__sisi
     
     @abstractmethod
-    def hitung_luas():
+    def hitung_luas(self):
         pass
     
     @abstractmethod
-    def hitung_keliling():
+    def hitung_keliling(self): 
         pass
