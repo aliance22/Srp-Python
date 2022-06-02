@@ -3,5 +3,5 @@ from abc import ABC , abstractmethod
 class Kehadiran(ABC):
     
     @abstractmethod
-    def mencatat_kahadiran(self) -> None:
+    def mencatat_kehadiran(self) -> None:
         pass

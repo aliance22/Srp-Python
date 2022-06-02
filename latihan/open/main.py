@@ -1,4 +1,4 @@
-from Karakter_Pemukul import Karakter_Pemukul
+from karakter_pemukul import KarakterPemukul
 from karakter_pengendara import KarakterPengendara
 from karakter_penembak import KarakterPenembak
 

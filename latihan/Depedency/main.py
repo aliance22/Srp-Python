@@ -9,5 +9,5 @@ kredit = KartuKredit()
 transaksi = Transaksi(debit)
 transaksi.do_paymen(100000)
 
-transaksi2 = transaksi(kredit)
-transaksi2.do_paymen(1000000)
+transaksi2 = Transaksi(kredit)
+transaksi2.do_paymen(500000)

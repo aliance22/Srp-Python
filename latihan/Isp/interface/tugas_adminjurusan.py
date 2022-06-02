@@ -7,5 +7,5 @@ class TugasAdminJurusan(Kehadiran, ABC):
         super().mencatat_kehadiran()
         
     @abstractmethod
-    def membuat_ujian(self) -> None:
+    def mempublis_jadwal(self) -> None:
         pass
