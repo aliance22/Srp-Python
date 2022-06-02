@@ -1,6 +1,6 @@
 from abc import ABC , abstractmethod
 
-class KehadiranOperation(ABC):
+class Kehadiran(ABC):
     
     @abstractmethod
     def mencatat_kahadiran(self) -> None:

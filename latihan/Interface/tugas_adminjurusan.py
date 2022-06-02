@@ -1,7 +1,7 @@
-from interface.kehadiran_operation import KehadiranOperation
+from interface.kehadiran import Kehadiran
 from abc import ABC, abstractmethod
 
-class TugasAdminJurusan(KehadiranOperation, ABC):
+class TugasAdminJurusan(Kehadiran, ABC):
     @abstractmethod
     def mencatat_kehadiran(self) -> None:
         super().mencatat_kehadiran()

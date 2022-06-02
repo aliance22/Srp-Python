@@ -1,4 +1,4 @@
-from interface.tugas_admin_jurusan import TugasAdminJurusan
+from interface.tugas_adminJurusan import TugasAdminJurusan
 
 class AdminJurusan (TugasAdminJurusan) :
     

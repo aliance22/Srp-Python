@@ -1,4 +1,4 @@
-from interface.tugas.mahasiswa import TugasMahasiswa
+from interface.tugas_mahasiswa import TugasMahasiswa
 
 class TugasMahasiswa(TugasMahasiswa):
     def mencatat_kehadiran(self) -> None:
