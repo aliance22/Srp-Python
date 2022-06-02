@@ -1,11 +1,8 @@
-from interface.kehadiran_operation import KehadiranOperation
-from abc import ABC, abstractmethod
+from interface.tugas.mahasiswa import TugasMahasiswa
 
-class TugasMahasiswa(KehadiranOperation, ABC):
-    @abstractmethod
+class TugasMahasiswa(TugasMahasiswa):
     def mencatat_kehadiran(self) -> None:
-        super().mencatat_kehadiran()
+        print("Rekap per pertemuan")
         
-    @abstractmethod
     def mengerjakan_ujian(self) -> None:
-        pass
+        print("Mahasiswa sedang mengerjakan ujian")
