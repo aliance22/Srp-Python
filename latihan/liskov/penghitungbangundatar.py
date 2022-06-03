@@ -9,9 +9,9 @@ class PenghitungBangunDatar(ABC):
         return self.__sisi
     
     @abstractmethod
-    def hitung_luas(self):
+    def hitung_keliling(self): 
         pass
     
     @abstractmethod
-    def hitung_keliling(self): 
+    def hitung_luas(self):
         pass

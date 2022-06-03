@@ -5,4 +5,4 @@ class Dosen(TugasDosen):
         print ("Rekap per semester")
         
     def membuat_ujian(self) -> None :
-        print("Dosen sedang membuat ujian")
+        print("Dosen membuat ujian")
